@@ -16,7 +16,6 @@ import FellowshipHighlights from "../../components/FellowshipHighlights";
 import ScrollToTopButton from "../../components/ScrollToTopButton";
 import { useDispatch, useSelector } from "react-redux";
 import Accasability from "../../components/Accasability";
-import { useGetMediaDataQuery } from "../../api/mediaApi";
 import {
   increaseFontSize,
   decreaseFontSize,
@@ -24,7 +23,6 @@ import {
 } from "../../store/slice/font_increase_decrease";
 
 const HomePage = () => {
-  const { data, error, isError, isLoading } = useGetMediaDataQuery();
   const language = useSelector((state: RootState) => state.language.language);
   const darkMode = useSelector((state: RootState) => state.theme.darkMode);
   const [scrollProgress, setScrollProgress] = useState(0);
