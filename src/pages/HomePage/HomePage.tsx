@@ -15,7 +15,7 @@ import AcademicPartner from "../../components/AcademicPartner";
 import FellowshipHighlights from "../../components/FellowshipHighlights";
 import ScrollToTopButton from "../../components/ScrollToTopButton";
 import { useDispatch, useSelector } from "react-redux";
-import Accasability from "../../components/Accasability";
+// import Accasability from "../../components/Accasability";
 import {
   increaseFontSize,
   decreaseFontSize,
@@ -286,7 +286,7 @@ const HomePage = () => {
         <Media />
         <div className="">
           <Footer />
-        </div>
+        </div>.
       </main>
       {/* <Accasability /> */}
     </>
