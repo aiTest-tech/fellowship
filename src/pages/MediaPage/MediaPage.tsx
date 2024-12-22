@@ -4,7 +4,6 @@ import Footer from "../../components/Footer/Footer";
 import { useEffect, useState } from "react";
 import "../../index.css";
 import { useDispatch, useSelector } from "react-redux";
-import { useGetMediaDataQuery } from "../../api/mediaApi";
 import { FaYoutube } from "react-icons/fa6";
 import { IoCloseCircle } from "react-icons/io5";
 
@@ -769,7 +768,7 @@ const modalStyles = {
 };
 
 const MediaPage = () => {
-  const { data, error, isError, isLoading } = useGetMediaDataQuery();
+  // const { data, error, isError, isLoading } = useGetMediaDataQuery();
   const darkMode = useSelector((state: RootState) => state.theme.darkMode);
   const language = useSelector((state: RootState) => state.language.language);
   const [scrollProgress, setScrollProgress] = useState(0);
