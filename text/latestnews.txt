@@ -1,0 +1,75 @@
+<section className="news section-pt-110 section-pb-110">
+                    <img src="assets/img/frame1.png" alt="shape" className="rotateme roate-event-bg" />
+                    <div className="container">
+                        <div className="row">
+                            <div className="col-lg-4">
+                                <div className="event-box news">
+                                    <h2 className="title text-center text-white event-head m-0">
+                                        <i className="fa fa-newspaper-o me-2" />
+                                        Latest News
+                                    </h2>
+                                    <div className="latest-news-content">
+                                        {/* Example news item */}
+                                        <div className="d-flex border-bottom py-2">
+                                            <div className="news-img">11 OCT</div>
+                                            Under the National e-Governance Plan (NeGP) of Government of India, State Data Centre (SDC) has been identified as one of.....
+                                        </div>
+                                        {/* Repeat for other news items */}
+                                    </div>
+                                </div>
+                            </div>
+
+                            {/* React Slick Slider Section */}
+                            <div className="col-lg-8">
+                                <div>
+                                    <h2 className="title mb-2 mt-4">Gujarat: Where Growth Begins</h2>
+                                </div>
+                                <div className="swiper-container welcome_growth_silder">
+                                    <Slider {...settings2}>
+                                        {/* React Slick slides */}
+                                        <div>
+                                            <div className="card">
+                                                <div className="card-body">
+                                                    <img src="assets/img/slide1.png" className="img-fluid" alt="slide1" />
+                                                    <h5 className="card-title font-weight-bold mt-2">
+                                                        Ahmedabad- Mumbai High Speed Rail
+                                                    </h5>
+                                                    <p className="card-text">
+                                                        India’s first high-speed rail project between two mega cities – Ahmedabad & Mumbai
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div>
+                                            <div className="card">
+                                                <div className="card-body">
+                                                    <img src="assets/img/slide2.jpg" className="img-fluid" alt="slide2" />
+                                                    <h5 className="card-title font-weight-bold mt-2">
+                                                        Offshore Wind Farm
+                                                    </h5>
+                                                    <p className="card-text">
+                                                        World’s largest 1,000 MW Offshore Wind Farm Project in Pipavav Gujarat.
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div>
+                                            <div className="card">
+                                                <div className="card-body">
+                                                    <img src="assets/img/slide3.jpg" className="img-fluid" alt="slide3" />
+                                                    <h5 className="card-title font-weight-bold mt-2">
+                                                        GIFT City
+                                                    </h5>
+                                                    <p className="card-text">
+                                                        India’s only hub with world-class infrastructure for offshore and international transactions in banking, insurance, and capital markets.
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        {/* Add more slides as needed */}
+                                    </Slider>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>

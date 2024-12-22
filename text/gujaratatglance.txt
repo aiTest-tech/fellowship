@@ -1,0 +1,221 @@
+<section className="Portfolio_gujarat section-pt-110 section-pb-110">
+                    <div className="container">
+                        <div className="text-center">
+                            <h2 className="title mb-5">Gujarat at Glance</h2>
+                        </div>
+                        <div className="row gutter-24">
+                            <div className="col-lg-6">
+                                <div className="d-flex justify-content-center mb-lg-0 mb-5">
+                                    <div className="gujarat-map">
+                                        {/* gujarat map put here */}
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div className="col-lg-6">
+                                <div className="map-detail-bg">
+                                    <div id="dist2301" className="content" style={{ display: "block" }}>
+                                        <div className="middle-portfolio">
+                                            <div className="city">KUTCH</div>
+                                            <p>
+                                                Kutch is an ancient land possessed of great antiquity which
+                                                takes its name from its geographical characteristics and
+                                                topographical features resembling a tortoise (Kachchh), the name
+                                                by which it has been referred to in the ancient literature, has
+                                                been defined by Mallinathi, in his ‘Bhashya Sanjivani’ on
+                                                ‘Amarkosh’, as a marshy region or waste land or a damp retion or
+                                                fallow low land.
+                                            </p>
+                                        </div>
+                                        <div className="row">
+                                            <div className="col-6">
+                                                <div className="bg1 combg">Area:45,674 Sq Km</div>
+                                            </div>
+                                            <div className="col-6">
+                                                <div className="bg2 combg">Talukas: 10</div>
+                                            </div>
+                                            <div className="col-6">
+                                                <div className="bg3 combg">Population: 20,92,371</div>
+                                            </div>
+                                            <div className="col-6">
+                                                <div className="bg4 combg">District H.Q : Bhuj</div>
+                                            </div>
+                                            <div className="col-6">
+                                                <div className="bg5 combg">Gram Panchayat : 632</div>
+                                            </div>
+                                            <div className="col-6">
+                                                <div className="bg6 combg">Villages: 924</div>
+                                            </div>
+                                        </div>
+                                        <div className="row">
+                                            <div className="col-5">
+                                                <div className="mt-3">
+                                                    <a
+                                                        href="https://kachchh.nic.in/"
+                                                        target="_blank"
+                                                        style={{
+                                                            color: "#fff",
+                                                            textTransform: "uppercase",
+                                                            textDecoration: "underline"
+                                                        }}
+                                                    >
+                                                        Visit District Website
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div id="dist2302" className="content" style={{ display: "none" }}>
+                                        <div className="middle-portfolio">
+                                            <div className="city">BANASKANTHA</div>
+                                            <p>
+                                                Banaskantha District includes the area around the Bank of Banas
+                                                river. The District is situated between 23.33 to 24.45 north
+                                                latitude and72.15 to 73.87 east longitude. Banaskantha District
+                                                lies on north-west side of Gujarat State. The District is
+                                                surrounded by Marwad and Sirohi regions of Rajasthan State in
+                                                the north, Sabarkantha District in the east, Mehshana District
+                                                in the south and Patan District in the west.Border of Pakistan
+                                                touches the desert.
+                                            </p>
+                                        </div>
+                                        <div className="row">
+                                            <div className="col-6">
+                                                <div className="bg1 combg">Area:19757 sq.km</div>
+                                            </div>
+                                            <div className="col-6">
+                                                <div className="bg2 combg">Taluka:14</div>
+                                            </div>
+                                            <div className="col-6">
+                                                <div className="bg3 combg">Population: 25,02,843</div>
+                                            </div>
+                                            <div className="col-6">
+                                                <div className="bg4 combg">District H.Q : Palanpur</div>
+                                            </div>
+                                            <div className="col-6">
+                                                <div className="bg5 combg">Gram Panchayat : 877</div>
+                                            </div>
+                                            <div className="col-6">
+                                                <div className="bg6 combg">Villages: 22,48,743</div>
+                                            </div>
+                                        </div>
+                                        <div className="row">
+                                            <div className="col-5">
+                                                <div className="mt-3">
+                                                    <a
+                                                        href="https://banaskantha.nic.in/"
+                                                        target="_blank"
+                                                        style={{
+                                                            color: "#fff",
+                                                            textTransform: "uppercase",
+                                                            textDecoration: "underline"
+                                                        }}
+                                                    >
+                                                        Visit District Website
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div id="dist2303" className="content" style={{ display: "none" }}>
+                                        <div className="middle-portfolio">
+                                            <div className="city">PATAN</div>
+                                            <p>
+                                                Vanraj Chavda had founded Aṇahilpur Patan in 802 CE as capital
+                                                of his state. Capital was named on his friend name Anhil
+                                                Bharvad. Aṇahilpur Patan was famous as capital in era of Vanraj
+                                                Chavda and Solanki or Chaulukya dynasty. Patan was ruled by
+                                                powerful kings like King Bhimdev, Siddhraj Jaisinh, Kumarpal.
+                                                Udan, Munjal Mehta, Tejpal – Vastupal were secretaries to Kings
+                                                in different era of Chaulukya kingdom.
+                                            </p>
+                                        </div>
+                                        <div className="row">
+                                            <div className="col-6">
+                                                <div className="bg1 combg">Area:5600 sq. k.m</div>
+                                            </div>
+                                            <div className="col-6">
+                                                <div className="bg2 combg">Talukas:10</div>
+                                            </div>
+                                            <div className="col-6">
+                                                <div className="bg3 combg">Population:1,062,653</div>
+                                            </div>
+                                            <div className="col-6">
+                                                <div className="bg4 combg">District H.Q : Patan</div>
+                                            </div>
+                                            <div className="col-6">
+                                                <div className="bg5 combg">Gram Panchayat : 464</div>
+                                            </div>
+                                            <div className="col-6">
+                                                <div className="bg6 combg">Villages: 524</div>
+                                            </div>
+                                        </div>
+                                        <div className="row">
+                                            <div className="col-5">
+                                                <div className="mt-3">
+                                                    <a
+                                                        href="https://patan.nic.in/"
+                                                        target="_blank"
+                                                        style={{
+                                                            color: "#fff",
+                                                            textTransform: "uppercase",
+                                                            textDecoration: "underline"
+                                                        }}
+                                                    >
+                                                        Visit District Website
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="col-lg-12">
+                                <div className="d-flex justify-content-center flex-wrap gap-3">
+                                    <div className="w-45">
+                                        <img src="assets/img/GOL-1.png" />
+                                        <div className="Portfolio_details">
+                                            <div className="Portfolio_number1">1,96,024 sq km</div>
+                                            <div className="Portfolio_title">Area</div>
+                                        </div>
+                                    </div>
+                                    <div className="w-45">
+                                        <img src="assets/img/GOL-2.png" />
+                                        <div className="Portfolio_details">
+                                            <div className="Portfolio_number2">6,038,3628</div>
+                                            <div className="Portfolio_title">Population</div>
+                                        </div>
+                                    </div>
+                                    <div className="w-45">
+                                        <img src="assets/img/GOL-5.png" />
+                                        <div className="Portfolio_details">
+                                            <div className="Portfolio_number5">33</div>
+                                            <div className="Portfolio_title">Districts</div>
+                                        </div>
+                                    </div>
+                                    <div className="w-45">
+                                        <img src="assets/img/GOL-4.png" />
+                                        <div className="Portfolio_details">
+                                            <div className="Portfolio_number4">252</div>
+                                            <div className="Portfolio_title">Total Talukas</div>
+                                        </div>
+                                    </div>
+                                    <div className="w-45">
+                                        <img src="assets/img/GOL-3.png" />
+                                        <div className="Portfolio_details">
+                                            <div className="Portfolio_number3">Gandhinagar</div>
+                                            <div className="Portfolio_title">Capital</div>
+                                        </div>
+                                    </div>
+                                    <div className="w-45">
+                                        <img src="assets/img/GOL-6.png" />
+                                        <div className="Portfolio_details">
+                                            <div className="Portfolio_number6">42</div>
+                                            <div className="Portfolio_title">Tourist Places</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>

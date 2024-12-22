@@ -1,0 +1,68 @@
+
+
+@media (max-width: 1200px) {
+    
+.tourism_content {
+    width:auto;
+}
+}
+
+
+@media (max-width: 992px) {
+    .about-right {
+        position: relative;
+        right: 0%;
+        /* bottom: 0%; */
+        margin-top: 5%;
+    }
+
+    .tourism_content {
+        width: 33%;
+    }
+
+    .why-box {
+        width: 33%;
+    }
+
+    .about-right .about__img-five img {
+        width: 100%;
+    }
+
+    .w-45 {
+        width: 30%;}
+
+        .about__area-five {
+            /* background-color: #C8E4F8; */
+            height: auto;
+        }
+
+        .about__img-five img {
+            width: 100%;
+        }
+  }
+
+  @media (max-width: 768px) {
+  
+
+    .tourism_content {
+        width: 100%;
+    }
+
+  }
+
+  @media (max-width: 576px) {
+    .w-45 {
+        width: 100%;
+        text-align: center;
+    }
+
+    .tourism_content {
+        width: 100%;
+    }
+
+    .why-box {
+        width: 100%;
+    }
+  }
+
+

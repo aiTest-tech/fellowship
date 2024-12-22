@@ -1,0 +1,25 @@
+/* Make sure the slider section takes the full viewport size */
+.slider__area {
+  position: relative;
+  width: 100%;
+  height: 100vh; /* Full viewport height */
+  overflow: hidden;
+}
+
+/* Make each slide and image take up full width and height */
+.slider__active .slide {
+  position: relative;
+  width: 100%;
+  height: 100vh; /* Full viewport height */
+}
+
+.slider__active .slide img {
+  width: 100vw; /* 100% of viewport width */
+  height: 100vh; /* 100% of viewport height */
+  object-fit: cover; /* This ensures the image covers the area without distortion */
+}
+
+/* Optional: If you want to add dots below the images */
+.slick-dots {
+  bottom: 10px; /* Adjust position of dots */
+}
