@@ -172,32 +172,32 @@ const Faq: React.FC = () => {
   const fontsize = useSelector((state: RootState) => state.fontSize.size);
   const darkMode = useSelector((state: RootState) => state.theme.darkMode);
 
-  const updateScrollProgress = () => {
-    // Get total scrollable height
-    const scrollHeight =
-      document.documentElement.scrollHeight -
-      document.documentElement.clientHeight;
-    const scrollPosition = window.scrollY;
+  // const updateScrollProgress = () => {
+  //   // Get total scrollable height
+  //   const scrollHeight =
+  //     document.documentElement.scrollHeight -
+  //     document.documentElement.clientHeight;
+  //   const scrollPosition = window.scrollY;
 
-    // Calculate the percentage of page scrolled
-    const progress = (scrollPosition / scrollHeight) * 100;
+  //   // Calculate the percentage of page scrolled
+  //   const progress = (scrollPosition / scrollHeight) * 100;
 
-    // Update state with the calculated progress
-    setScrollProgress(progress);
-  };
+  //   // Update state with the calculated progress
+  //   setScrollProgress(progress);
+  // };
 
-  useEffect(() => {
-    // Initialize AOS for animations
-    // AOS.init();
+  // // useEffect(() => {
+  // //   // Initialize AOS for animations
+  // //   // AOS.init();
 
-    // Add scroll event listener
-    window.addEventListener("scroll", updateScrollProgress);
+  // //   // Add scroll event listener
+  // //   window.addEventListener("scroll", updateScrollProgress);
 
-    // Clean up the event listener on component unmount
-    return () => {
-      window.removeEventListener("scroll", updateScrollProgress);
-    };
-  }, []);
+  // //   // Clean up the event listener on component unmount
+  // //   return () => {
+  // //     window.removeEventListener("scroll", updateScrollProgress);
+  // //   };
+  // // }, []);
   // State to track which question's answer is open
   const [openIndex, setOpenIndex] = useState<number | null>(null);
 

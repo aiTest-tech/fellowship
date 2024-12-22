@@ -45,22 +45,22 @@ const HomePage = () => {
     }
   };
 
-  const updateScrollProgress = () => {
-    const scrollHeight =
-      document.documentElement.scrollHeight -
-      document.documentElement.clientHeight;
-    const scrollPosition = window.scrollY;
-    const progress = (scrollPosition / scrollHeight) * 100;
-    setScrollProgress(progress);
-  };
+  // const updateScrollProgress = () => {
+  //   const scrollHeight =
+  //     document.documentElement.scrollHeight -
+  //     document.documentElement.clientHeight;
+  //   const scrollPosition = window.scrollY;
+  //   const progress = (scrollPosition / scrollHeight) * 100;
+  //   setScrollProgress(progress);
+  // };
 
-  useEffect(() => {
-    AOS.init();
-    window.addEventListener("scroll", updateScrollProgress);
-    return () => {
-      window.removeEventListener("scroll", updateScrollProgress);
-    };
-  }, []);
+  // useEffect(() => {
+  //   AOS.init();
+  //   window.addEventListener("scroll", updateScrollProgress);
+  //   return () => {
+  //     window.removeEventListener("scroll", updateScrollProgress);
+  //   };
+  // }, []);
 
   const settings = {
     infinite: true,

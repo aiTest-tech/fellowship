@@ -386,19 +386,19 @@ const MeetOurFellows = () => {
 
     const language = useSelector((state: RootState) => state.language.language);
 
-    const updateScrollProgress = () => {
-        const scrollHeight = document.documentElement.scrollHeight - document.documentElement.clientHeight;
-        const scrollPosition = window.scrollY;
-        const progress = (scrollPosition / scrollHeight) * 100;
-        setScrollProgress(progress);
-    };
+    // const updateScrollProgress = () => {
+    //     const scrollHeight = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+    //     const scrollPosition = window.scrollY;
+    //     const progress = (scrollPosition / scrollHeight) * 100;
+    //     setScrollProgress(progress);
+    // };
 
-    useEffect(() => {
-        window.addEventListener('scroll', updateScrollProgress);
-        return () => {
-            window.removeEventListener('scroll', updateScrollProgress);
-        };
-    }, []);
+    // useEffect(() => {
+    //     window.addEventListener('scroll', updateScrollProgress);
+    //     return () => {
+    //         window.removeEventListener('scroll', updateScrollProgress);
+    //     };
+    // }, []);
 
     const initialData = [
         {

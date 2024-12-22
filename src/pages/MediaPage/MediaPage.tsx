@@ -772,32 +772,32 @@ const MediaPage = () => {
   const darkMode = useSelector((state: RootState) => state.theme.darkMode);
   const language = useSelector((state: RootState) => state.language.language);
   const [scrollProgress, setScrollProgress] = useState(0);
-  const updateScrollProgress = () => {
-    // Get total scrollable height
-    const scrollHeight =
-      document.documentElement.scrollHeight -
-      document.documentElement.clientHeight;
-    const scrollPosition = window.scrollY;
+  // const updateScrollProgress = () => {
+  //   // Get total scrollable height
+  //   const scrollHeight =
+  //     document.documentElement.scrollHeight -
+  //     document.documentElement.clientHeight;
+  //   const scrollPosition = window.scrollY;
 
-    // Calculate the percentage of page scrolled
-    const progress = (scrollPosition / scrollHeight) * 100;
+  //   // Calculate the percentage of page scrolled
+  //   const progress = (scrollPosition / scrollHeight) * 100;
 
-    // Update state with the calculated progress
-    setScrollProgress(progress);
-  };
+  //   // Update state with the calculated progress
+  //   setScrollProgress(progress);
+  // };
 
-  useEffect(() => {
-    // Initialize AOS for animations
-    // AOS.init();
+  // useEffect(() => {
+  //   // Initialize AOS for animations
+  //   // AOS.init();
 
-    // Add scroll event listener
-    window.addEventListener("scroll", updateScrollProgress);
+  //   // Add scroll event listener
+  //   window.addEventListener("scroll", updateScrollProgress);
 
-    // Clean up the event listener on component unmount
-    return () => {
-      window.removeEventListener("scroll", updateScrollProgress);
-    };
-  }, []);
+  //   // Clean up the event listener on component unmount
+  //   return () => {
+  //     window.removeEventListener("scroll", updateScrollProgress);
+  //   };
+  // }, []);
   return (
     <>
       <div className="w-full fixed top-0 left-0 z-50">
