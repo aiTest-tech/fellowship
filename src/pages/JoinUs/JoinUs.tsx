@@ -114,7 +114,7 @@ const JoinUs = () => {
         </div>
       </div>
       <div
-        className={`min-h-screen  p-8 ${darkMode ? "bg-black" : "bg-illusion-pattern"
+        className={`min-h-screen  p-8 ${darkMode ? "bg-black" : "bg-white"
           }`}
       >
         <div className="container py-3 ">

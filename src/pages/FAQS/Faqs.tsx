@@ -230,7 +230,7 @@ const Faq: React.FC = () => {
       </div>
       <div
         className={`w-full bg-repeat-y ${
-          darkMode ? "bg-black" : "bg-illusion-pattern"
+          darkMode ? "bg-black" : "bg-white"
         }`}
       >
         <div className="container py-3 ">

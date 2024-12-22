@@ -67,7 +67,7 @@ const ContactUs = () => {
       <main className="fix">
         <div
           className={`container-fluid contact bg-light py-5 ${
-            darkMode ? "bg-black" : "bg-illusion-pattern"
+            darkMode ? "bg-black" : "bg-white"
           }`}
         >
           {/* <div className="container-fluid contact bg-light py-5 bg-[url('assets/img/about-bg.jpg')]"> */}
