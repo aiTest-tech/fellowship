@@ -13,7 +13,7 @@ const store = configureStore({
   },
   middleware: (getDefaultMiddleware) =>
     getDefaultMiddleware().concat(
-      MediaDataApi.middleware
+      // MediaDataApi.middleware
     ),
 });
 
