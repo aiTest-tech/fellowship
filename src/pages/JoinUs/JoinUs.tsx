@@ -114,7 +114,7 @@ const JoinUs = () => {
         </div>
       </div>
       <div
-        className={`min-h-screen  p-8 ${darkMode ? "bg-black" : "bg-[url('aiTest-tech/fellowship/public/assets/img/illusion.png')]"
+        className={`min-h-screen  p-8 ${darkMode ? "bg-black" : "bg-illusion-pattern"
           }`}
       >
         <div className="container py-3 ">

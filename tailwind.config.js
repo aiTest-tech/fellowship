@@ -3,6 +3,9 @@ export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
     extend: {
+      backgroundImage: {
+        'illusion-pattern': "url('/assets/img/illusion.png')",
+      },
       fontSize: {
         xxs: "0.65rem", // Custom font size example
         tiny: "0.875rem", // Another custom size
