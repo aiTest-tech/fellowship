@@ -609,7 +609,7 @@ const MeetOurFellows = () => {
                 className="fixed top-0 left-0 h-1 bg-orange-500 transition-all duration-200 ease-in-out z-50"
             ></div>
             <main className="relative sm:mt-[120px] mt-[100px]">
-                <div className={`flex justify-center items-center   pt-[20px] w-[100vw] ${darkMode ? "bg-black" : "bg-[url('assets/img/illusion.png')]"}`}>
+                <div className={`flex justify-center items-center   pt-[20px] w-[100vw] ${darkMode ? "bg-black" : "bg-[url('aiTest-tech/fellowship/public/assets/img/illusion.png')]"}`}>
                     <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-x-8 ">
                         {initialData.map((fellow) => (
                             <ProfileCard

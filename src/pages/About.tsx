@@ -61,7 +61,7 @@ const About = () => {
 
       <main
         className={`fix mt-[0px] pt-[40px] max-w-md:mt-[50px])] ${
-          darkMode ? "bg-black" : "bg-[url('assets/img/illusion.png')]"
+          darkMode ? "bg-black" : "bg-[url('aiTest-tech/fellowship/public/assets/img/illusion.png')]"
         }`}
       >
         <section className="about__area section-pb-110">

@@ -57,7 +57,7 @@ const FellowshipHighlights: React.FC = () => {
         //         </div>
         //     </div>
         // </section>
-        <section className={`section-pt-110 section-pb-110 relative ${darkMode ? "bg-black" : "bg-[url('assets/img/illusion.png')]"}`}>
+        <section className={`section-pt-110 section-pb-110 relative ${darkMode ? "bg-black" : "bg-[url('aiTest-tech/fellowship/public/assets/img/illusion.png')]"}`}>
             {
                 darkMode ? "" : (
                     <img

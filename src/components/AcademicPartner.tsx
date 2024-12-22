@@ -56,7 +56,7 @@ const AcademicPartner = () => {
                 </div>
             </div> */}
             <main className="fix sm:mt-[120px] mt-[100px]">
-                <div className={`min-h-screen  py-10 ${darkMode ? "bg-black" : "bg-[url('assets/img/illusion.png')]"}`}>
+                <div className={`min-h-screen  py-10 ${darkMode ? "bg-black" : "bg-[url('aiTest-tech/fellowship/public/assets/img/illusion.png')]"}`}>
                     <div className="container py-3 ">
                         <div className="row align-items-center">
                             <div className="col-lg-12 col-md-12">
